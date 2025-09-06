@@ -21,4 +21,4 @@ This project contains automated test cases for the Almosafer website, including 
 
 ------------------------------------------------------
 
-💙 This code was written with love and is continuously evolving every day 🚀✨
+💙 This code was written with love 🚀✨
