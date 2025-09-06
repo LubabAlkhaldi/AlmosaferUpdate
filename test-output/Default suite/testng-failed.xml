@@ -5,7 +5,9 @@
     <classes>
       <class name="AlmosaferWebsite.AlmosaferWebsite.AppTest">
         <methods>
-          <include name="Setup"/>
+          <include name="setup"/>
+          <include name="HotelSearchTabCityInput"/>
+          <include name="selectRoomOptionsRandomly"/>
           <include name="waitForSearchResults"/>
           <include name="clickSearchHotels"/>
         </methods>

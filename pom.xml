@@ -28,11 +28,10 @@
 
   	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 	<dependency>
-	    <groupId>org.seleniumhq.selenium</groupId>
-	    <artifactId>selenium-java</artifactId>
-	    <version>4.29.0</version>
+	  <groupId>org.seleniumhq.selenium</groupId>
+	  <artifactId>selenium-java</artifactId>
+	  <version>4.34.0</version>
 	</dependency>
-
 
 	<dependency>
 		<groupId>firstProject</groupId>

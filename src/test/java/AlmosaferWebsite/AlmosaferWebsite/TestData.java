@@ -22,7 +22,7 @@ public class TestData {
     // Test 3: Expected currency is SAR
     String ExpectedCurrency = "SAR";  
 
-    // Test 5-11: Expected value for the hotel tab not selected
+    // Test 5: Expected value for the hotel tab not selected
     String ExpectedValue = "false";  
 
     // Test 6: Expected departure date, which is tomorrow
@@ -42,6 +42,22 @@ public class TestData {
     String[] ArabicCities = { "دبي", "جدة" };
     int randomArabicCity = random.nextInt(ArabicCities.length);
     String randomAr = ArabicCities[randomArabicCity];  
+    
+    
+    public class CitiesData {
+
+        private static String[] EnglishCities = { "Dubbai", "Jeddah", "Riyadh" };
+        private static String[] ArabicCities = { "دبي", "جدة" };
+        private static Random random = new Random();
+
+        public static String getRandomCity(String lang) {
+            if (lang.equalsIgnoreCase("ar")) {
+                return ArabicCities[random.nextInt(ArabicCities.length)];
+            } else {
+                return EnglishCities[random.nextInt(EnglishCities.length)];
+            }
+        }
+    }
 
     // Test 12: Expected outcome after finishing hotel search
     boolean ExpectedFinshingSearchHotel = true;  
